@@ -1,0 +1,11 @@
+{
+  "name": "linker",
+  "version": "1.0.0",
+  "description": "Super simple link hosting",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Chuck Dries",
+  "license": "ISC"
+}
