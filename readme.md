@@ -18,11 +18,11 @@ The linker payload is a JSON object literal with three attributes:
 I have three very short bash scripts I can easily recreate on any vm or remote machine or whatever wherever I need it
 
 #### "copying" uploading
-    curl --data "{\"content\":\"$1\",\"password\":\"<yourpassword>\"}" <linkerurl>/                                                                 
+    curl --data "{\"content\":\"$1\",\"password\":\"<yourpassword>\"}" <linkerurl>                                                                 
     echo ""
 
 #### uploading URLs 
-    curl --data "{\"content\":\"$1\",\"type\":\"url\",\"password\":\"<yourpassword>\"}" <linkerurl>/                                                                 
+    curl --data "{\"content\":\"$1\",\"type\":\"url\",\"password\":\"<yourpassword>\"}" <linkerurl>                                                                 
     echo ""
 #### "pasting" (downloading)
     curl <linkerurl> && echo "" 
