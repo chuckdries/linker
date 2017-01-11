@@ -1,6 +1,8 @@
-# Cloud copy-paste for devs and sysadmins.
+# Stop emailing yourself links
 
 Linker is dead simple: send it a single piece of information via POST and will give you that exact information via GET.
+
+I made it when I was trying to fix the graphics drivers on my Fedora partition on my desktop. I had a step by step instruction blog post open on my laptop and I was typing the code from my laptop into my desktop one line at a time when I wished I could just copy paste between computer without installing anything or signing up for some service or any of that nonsense. So, in my laziness, linker was born, so I could quickly send small snippets of text from one computer to another. I wrote a script that POSTed its arguments to the linker URL (which is always the same) then I just cURL that url on my recieving machine to retrieve my contents.
 
 ### Usage:
 
