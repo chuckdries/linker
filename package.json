@@ -9,6 +9,5 @@
   "author": "Chuck Dries",
   "license": "ISC",
   "dependencies": {
-    "nunjucks": "^3.0.0"
   }
 }
