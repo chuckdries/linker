@@ -15,15 +15,19 @@ The linker payload is a JSON object literal with three attributes:
 
 I have three very short bash scripts I can easily recreate on any vm or remote machine or whatever wherever I need it
 
-#### "copying" uploading
+#### "copying" / uploading
     curl --data "{\"content\":\"$1\",\"password\":\"<yourpassword>\"}" <linkerurl>                                                                 
     echo ""
 
 #### uploading URLs 
     curl --data "{\"content\":\"$1\",\"type\":\"url\",\"password\":\"<yourpassword>\"}" <linkerurl>                                                                 
     echo ""
-#### "pasting" (downloading)
+#### "pasting" / uploading
     curl <linkerurl> && echo "" 
+
+If you're piping the output to something else, feel free to remove the `&& echo ""` to get rid of the new line in the output. I just think it's pretty.
+
+In theory this service is 100% compatible with any platform that can connect to the internet. I don't know batch or powershell but porting these scripts to windows would be completely trivial if I bothered to try. If you do, please submit a pull request!
 
 ## Password
 
