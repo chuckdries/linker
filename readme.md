@@ -13,7 +13,7 @@ The linker payload is a JSON object literal with three attributes:
     - `password` is the password defined in the password file
     - `type` set to `url` to have the service return a tiny HTML page that redirects your browser to the url in content. Omit to have service return the text in `content` and nothing else.
 
-I have three very short bash scripts I can easily recreate on any vm or remote machine or whatever wherever I need it
+I have three very short bash scripts I can easily recreate on any vm or remote machine or whatever wherever I need it. No installation necissary.
 
 #### "copying" / uploading
     curl --data "{\"content\":\"$1\",\"password\":\"<yourpassword>\"}" <linkerurl>                                                                 
