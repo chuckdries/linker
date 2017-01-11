@@ -1,8 +1,6 @@
-# Linker 
+# Linker: cloud copy-paste for devs and sysadmins.
 
-## cloud copy-paste for devs and sysadmins.
-
-Linker is dead simple. Send it a single piece of information via POST and will give you that exact information via GET.
+Linker is dead simple: send it a single piece of information via POST and will give you that exact information via GET.
 
 ### Usage:
 
