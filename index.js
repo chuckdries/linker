@@ -35,7 +35,7 @@ function onRequest(request, response){
                 payload = body;
                 console.log(payload);
                 response.writeHead(202, { "Content-Type": "text/plain " });
-                response.write("we recieved the payload " + payload);
+                response.write("we recieved the payload " + payload.content);
                 response.end();
             } else {
                 console.log("incorrect password");
