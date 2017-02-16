@@ -24,7 +24,7 @@ I have three very short bash scripts I can easily recreate on any vm or remote m
 #### uploading URLs 
     curl --data "{\"content\":\"$1\",\"type\":\"url\",\"password\":\"<yourpassword>\"}" <linkerurl>
     echo ""
-#### "pasting" / uploading
+#### "pasting" / downloading
     curl <linkerurl> && echo "" 
 
 If you're piping the output to something else, feel free to remove the `&& echo ""` to get rid of the new line in the output. I just think it's pretty.
