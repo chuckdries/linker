@@ -37,4 +37,8 @@ As you can see, your password is stored in plain text and transmitted in plain t
 
 ## The Future
 
-Right now, I'm hosting my own copy on DigitalOcean. I plan on adding the ability to put multiple payloads (with different endpoints and passwords) at different url paths, so potentially one install could be opened up to the public with some sort of simple registration system, kinda like txti or pastebin but simpler to use from the command line.
+ - support multiple payloads at different endpoints
+ - webui for submitting payloads
+ - look into alternative upload syntax
+ - persist payloads across restarts
+ - encryption? Not relevant right now as data is only stored in memory and never written to disk, but may be important when we implement persistance
