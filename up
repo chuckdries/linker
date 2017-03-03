@@ -1,0 +1,2 @@
+curl --data "{\"content\":\"$1\",\"password\":\"hahahanope\"}" lnkr.chuckdries.rocks
+echo ""

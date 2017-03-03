@@ -57,3 +57,4 @@ function onRequest(request, response){
 function getHTML(url){
     return "<html><head></head><body>Please wait<script>window.location=\"" + url + "\";</script></body></html>";
 }
+
