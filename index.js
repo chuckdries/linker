@@ -4,7 +4,7 @@ var password = require('./password');
 
 var server = http.createServer(onRequest);
 
-server.listen(8123);
+server.listen(8123,'127.0.0.1');
 
 var payload = {
     "content":"http://chuckdries.rocks",
