@@ -4,7 +4,7 @@ var password = require('./password');
 
 var server = http.createServer(onRequest);
 
-server.listen(80);
+server.listen(8080);
 
 var payload = {
     "content":"http://chuckdries.rocks",
@@ -57,3 +57,5 @@ function onRequest(request, response){
 function getHTML(url){
     return "<html><head></head><body>Please wait<script>window.location=\"" + url + "\";</script></body></html>";
 }
+
+//test
